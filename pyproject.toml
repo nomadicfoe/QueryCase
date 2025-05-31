@@ -1,0 +1,16 @@
+[project]
+name = "QueryCase"
+version = "0.1.0"
+description = "A Python package to fetch and semantically search U.S. court cases"
+authors = [{ name = "Your Name" }]
+dependencies = [
+    "requests",
+    "pymupdf",
+    "faiss-cpu",
+    "tqdm",
+    "sentence-transformers"
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+querycase-update = "querycase.update:run"
