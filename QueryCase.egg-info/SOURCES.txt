@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+QueryCase.egg-info/PKG-INFO
+QueryCase.egg-info/SOURCES.txt
+QueryCase.egg-info/dependency_links.txt
+QueryCase.egg-info/entry_points.txt
+QueryCase.egg-info/requires.txt
+QueryCase.egg-info/top_level.txt
+querycase/__init__.py
+querycase/embed.py
+querycase/index.py
+querycase/update.py

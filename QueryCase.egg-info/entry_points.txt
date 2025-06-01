@@ -1,0 +1,2 @@
+[console_scripts]
+querycase-update = querycase.update:run
