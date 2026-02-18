@@ -12,7 +12,7 @@ PDF_DIR = os.path.join(BASE_DIR, "pdfs")
 JSON_DIR = os.path.join(BASE_DIR, "json")
 INDEX_PATH = os.path.join(BASE_DIR, "faiss_index.index")
 META_PATH = os.path.join(BASE_DIR, "metadata.json")
-LAST_FETCH_PATH = os.path.join(BASE_DIR, "last_fetched_date.txt")
+LAST_FETCH_PATH = os.path.join(BASE_DIR, "checkpoint.json")  # <-- JSON, not TXT!
 
 # Create folders if they don't exist
 os.makedirs(PDF_DIR, exist_ok=True)

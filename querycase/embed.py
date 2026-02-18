@@ -36,9 +36,9 @@ def embed_and_update_index(new_cases):
             all_embeddings.append(vec)
             new_metadata.append({
                 "case_id": case["id"],
-                "case_name": case["case_name"],
-                "date_filed": case["date_filed"],
-                "download_url": case["download_url"],
+                "case_name": case.get("case_name") or "Unknown Case",
+                "date_filed": case.get("date_filed") or "Unknown Date",
+                "download_url": case.get("download_url"),
                 "chunk_text": chunk
             })
 

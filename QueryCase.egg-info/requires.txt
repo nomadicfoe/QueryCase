@@ -3,3 +3,5 @@ pymupdf
 faiss-cpu
 tqdm
 sentence-transformers
+transformers
+torch

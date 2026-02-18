@@ -9,3 +9,5 @@ Requires-Dist: pymupdf
 Requires-Dist: faiss-cpu
 Requires-Dist: tqdm
 Requires-Dist: sentence-transformers
+Requires-Dist: transformers
+Requires-Dist: torch

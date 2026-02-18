@@ -7,6 +7,10 @@ QueryCase.egg-info/entry_points.txt
 QueryCase.egg-info/requires.txt
 QueryCase.egg-info/top_level.txt
 querycase/__init__.py
+querycase/app.py
+querycase/config.py
 querycase/embed.py
+querycase/fetch.py
 querycase/index.py
+querycase/summarizer.py
 querycase/update.py
